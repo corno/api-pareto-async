@@ -20,7 +20,6 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.1.0",
-  "dependencies": {
-  },
-  "content-fingerprint": "5045849e54313f559cd2f14aa6db430463b02ed6"
+  "interface-fingerprint": "e99f7a562408f1012ddd48b73536fcf9f4c6a821",
+  "content-fingerprint": "d928a5b3e0ef998eaa18199286606dec001776a8"
 }
