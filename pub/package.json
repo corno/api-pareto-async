@@ -20,9 +20,9 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.1.0",
-  "interface-fingerprint": "e99f7a562408f1012ddd48b73536fcf9f4c6a821",
+  "interface-fingerprint": "ef913098056b5245d7bd144709e8739a6333e4a3",
   "dependencies": {
     "pareto-core-types": "^0.6.0"
   },
-  "content-fingerprint": "7c6292d64a76acd1ad11c6f0494191964a450286"
+  "content-fingerprint": "3fc245beab8d52c29534a850b2b3d371589aaa9c"
 }

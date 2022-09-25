@@ -1,12 +1,12 @@
 import * as pt from "pareto-core-types"
 import { IStreamConsumer } from "../interfaces/StreamConsumer.p"
+import { FGetAsyncData } from "./GetAsyncData.p"
 
-export type FAggregate = <PD, PT>(
-    $: PD,
+export type FCreateAggregater = <PConfigurationData, PResultData>(
     $d: {
         connectToStream: (
-            $: PD,
-            $i: IStreamConsumer<PT>
+            $: PConfigurationData,
+            $i: IStreamConsumer<PResultData>
         ) => void
     }
-) => pt.AsyncValue<pt.Array<PT>>
+) => FGetAsyncData<PConfigurationData, pt.Array<PResultData>>

@@ -2,8 +2,8 @@ import * as pt from "pareto-core-types"
 
 import { FGetAsyncData } from "./GetAsyncData.p"
 
-export type FCreateCache = <T>(
+export type FCreateCache = <PResultData>(
     $d: {
-        getData: ($: string) => pt.AsyncValue<T>
+        getData: FGetAsyncData<string, PResultData>
     }
-) => FGetAsyncData<T>
+) => FGetAsyncData<string, PResultData>
