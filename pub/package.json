@@ -1,0 +1,26 @@
+{
+  "author": "Corno",
+  "bin": {},
+  "files": [
+    "dist",
+    "data"
+  ],
+  "keywords": [],
+  "main": "./dist/index.js",
+  "bugs": {
+    "url": "https://github.com/corno/api-pareto-async/issues"
+  },
+  "description": "async function for pareto",
+  "homepage": "https://github.com/corno/api-pareto-async#readme",
+  "license": "ISC",
+  "name": "api-pareto-async",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/api-pareto-async.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "dependencies": {
+  },
+  "content-fingerprint": "5045849e54313f559cd2f14aa6db430463b02ed6"
+}
